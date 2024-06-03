@@ -3,11 +3,11 @@
     public static void Main()
     {
         // n = Number of chickens
-        Console.Write("Input n (number of chickens): ");
+        Console.Write("How many chickens?: ");
         int n = int.Parse(Console.ReadLine());
 
         // k = Length of roof that Superman can carry to cover chickens
-        Console.Write("Input k (length of the roof): ");
+        Console.Write("Hi Superman! What is the lenth of your roof?: ");
         int k = int.Parse(Console.ReadLine());
 
         // Hash of chicken positions (unique position -> no duplicate) 
@@ -21,7 +21,7 @@
             int chickenPosition;
             while (true)
             {
-                Console.Write($"Input chickenPosition of {i + 1}st chicken: ");
+                Console.Write($"Specify the position of {i + 1}st chicken: ");
                 chickenPosition = int.Parse(Console.ReadLine());
 
                 // Check duplicate position
