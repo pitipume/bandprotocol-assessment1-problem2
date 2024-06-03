@@ -49,15 +49,16 @@
         int left = 0;
         int right = 0;
 
+        // Validate logic from Left to Right (Like PointA to PointB)
         for (right = 0; right < n; right++)
         {
             while (chickenPositions[right] - chickenPositions[left] >= k)
             {
                 left++;
             }
-            maxChickens = Math.Max(maxChickens, right - left + 1);
+            maxChickens = Math.Max(maxChickens, (right - left) + 1); // The reason to +1 is because to include the 1st chicken that can be covered itself
         }
 
-        Console.WriteLine($"Max number of chickens that Superman can protect within the carried roof = {maxChickens}");
+        Console.WriteLine($"Maximum number of chickens that Superman can protect within the carried roof = {maxChickens}");
     }
 }
