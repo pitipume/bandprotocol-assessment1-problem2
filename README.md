@@ -10,7 +10,7 @@ Step1
 
 Step2
 - In terminal or powershell
-- cd to project ```\bandprotocol-assessment1-problem1\BossBabyRevenge\BossBabyRevenge```
+- cd to project ```\bandprotocol-assessment1-problem2\SupermanChickenRescue\SupermanChickenRescue```
 - type the command to run the project ```dotnet run```
 - Then, you can type in the string input -> the program will validate by using my written logic and show result in the Terminal
 
